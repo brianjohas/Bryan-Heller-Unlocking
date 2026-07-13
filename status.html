@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>Check Unlock Status</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="status-page">
+
+<header>
+
+<h1>Check Unlock Status</h1>
+
+<p>Enter your reference number.</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="request.html">Request Unlock</a>
+
+<a href="status.html">Check Status</a>
+
+<a href="contact.html">Contact Us</a>
+
+</nav>
+
+<div class="container status-container">
+
+<h2>Track Your Request</h2>
+
+<input
+type="text"
+id="ref"
+placeholder="Example: BH-2026-0001">
+
+<button onclick="checkStatus()">
+
+Check Status
+
+</button>
+
+<div class="result" id="result">
+
+<h3>Reference Number</h3>
+
+<p id="refno"></p>
+
+<h3>Status</h3>
+
+<p class="status" id="status"></p>
+
+<h3>Estimated Progress</h3>
+
+<p id="progress"></p>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Bryan Heller Unlocking Service
+
+</footer>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
