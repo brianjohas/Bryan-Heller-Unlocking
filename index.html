@@ -171,7 +171,15 @@ href="https://wa.me/265984820687">
 </a>
 
 <script type="module" src="js/app.js"></script>
-
+<script>
+const menu=document.getElementById("menuToggle");
+const nav=document.getElementById("navbar");
+if (menu && nav) {
+  menu.onclick=function(){
+    nav.classList.toggle("active");
+  };
+}
+</script>
 </body>
 </html>
 
