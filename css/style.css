@@ -63,7 +63,6 @@ header p {
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
-
 .site-header nav {
   display: flex;
   gap: 10px;
@@ -73,6 +72,58 @@ header p {
 .site-header nav a {
   color: #fff;
   text-decoration: none;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 999px;
+  transition: .3s;
+}
+
+.site-header nav a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.site-header .menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-wrap: wrap;
+    padding: 12px 16px;
+  }
+
+  .site-header .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .site-header nav {
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 100%;
+    background: #0b5ed7;
+    flex-direction: column;
+    padding: 8px 0;
+  }
+
+  .site-header nav.active {
+    display: flex;
+  }
+
+  .site-header nav a {
+    padding: 14px 16px;
+    border-radius: 0;
+    border-top: 1px solid rgba(255,255,255,.12);
+    text-align: center;
+  }
+}
+
 
 .hero-intro {
   max-width: 760px;
