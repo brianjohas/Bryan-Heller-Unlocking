@@ -101,7 +101,7 @@ header p {
     margin-left: auto;
   }
 
-  .site-header nav {
+  .site-header navbar {
     display: none;
     position: absolute;
     top: 74px;
@@ -112,11 +112,11 @@ header p {
     padding: 8px 0;
   }
 
-  .site-header nav.active {
+  .site-header navbar .active {
     display: flex;
   }
 
-  .site-header nav a {
+  .site-header navbar a {
     padding: 14px 16px;
     border-radius: 0;
     border-top: 1px solid rgba(255,255,255,.12);
