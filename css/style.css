@@ -63,13 +63,13 @@ header p {
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
 }
-.site-header nav {
+.site-header navbar {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.site-header nav a {
+.site-header navbar a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
@@ -78,7 +78,7 @@ header p {
   transition: .3s;
 }
 
-.site-header nav a:hover {
+.site-header navbar a:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0.16);
 }
