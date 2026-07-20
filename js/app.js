@@ -82,9 +82,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const navbar = document.getElementById("navbar");
 
   if (menuToggle && navbar) {
-    menuToggle.addEventListener("click", function () {
+    const toggleMenu = function (event) {
+      if (event) event.preventDefault();
       navbar.classList.toggle("active");
-    });
+    };
+
+    menuToggle.addEventListener("click", toggleMenu);
+    menuToggle.addEventListener("touchstart", toggleMenu, { passive: false });
   }
 
   const unlockForm = document.getElementById("unlockForm");

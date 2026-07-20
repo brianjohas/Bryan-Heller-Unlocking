@@ -89,6 +89,12 @@ border:1px solid #ddd;
     border-bottom: 1px solid #eef2f6;
 }
 
+.site-header .logo a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .site-header .logo img {
     height: 80px;
     background: transparent;
@@ -122,8 +128,9 @@ border:1px solid #ddd;
 .site-header .menu-toggle {
   display: none;
   font-size: 30px;
-  color: white;
+  color: #0b5ed7;
   cursor: pointer;
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
@@ -143,9 +150,12 @@ border:1px solid #ddd;
     top: 74px;
     left: 0;
     width: 100%;
-    background: #0b5ed7;
+    background: #ffffff;
     flex-direction: column;
     padding: 8px 0;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    border-top: 1px solid #eef2f6;
+    z-index: 1001;
   }
 
   .site-header nav.active {
@@ -155,8 +165,10 @@ border:1px solid #ddd;
   .site-header nav a {
     padding: 14px 16px;
     border-radius: 0;
-    border-top: 1px solid rgba(255,255,255,.12);
+    border-top: 1px solid #f1f5f9;
     text-align: center;
+    color: #0b132b;
+    display: block;
   }
 }
 
@@ -544,7 +556,7 @@ transform:translateY(-2px);
 
 /*FOOTER*/
 footer {
-  background: #003366;
+  background: #0b5ed7;
   color: white;
   padding: 35px;
   text-align: center;
