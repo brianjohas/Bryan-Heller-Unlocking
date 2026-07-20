@@ -73,7 +73,7 @@ body {
 .site-header .menu-toggle {
   display: none;
   font-size: 30px;
-  color: white;
+  color: #0b5ed7;
   cursor: pointer;
 }
 
@@ -94,9 +94,11 @@ body {
     top: 74px;
     left: 0;
     width: 100%;
-    background: #0b5ed7;
+    background: #ffffff;
     flex-direction: column;
     padding: 8px 0;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    border-top: 1px solid #eef2f6;
   }
 
   .site-header nav.active {
@@ -106,8 +108,9 @@ body {
   .site-header nav a {
     padding: 14px 16px;
     border-radius: 0;
-    border-top: 1px solid rgba(255,255,255,.12);
+    border-top: 1px solid #f1f5f9;
     text-align: center;
+    color: #0b132b;
   }
 }
 
@@ -121,12 +124,15 @@ header p {
   font-size: 18px;
   opacity: 0.95;
 }
+.header h1 {
+  font-size: 35px;
+  margin-bottom: 8px;
 }
 
-.header p {
-  margin-top: 8px;
-  font-size: 18px;
-  opacity: 0.95;
+header h1 {
+  font-size: 35px;
+  margin-bottom: 8px;
+  color: #0b132b;
 }
 .hero-intro p {
   max-width: 640px;
