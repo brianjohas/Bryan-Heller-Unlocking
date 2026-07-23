@@ -41,6 +41,9 @@ body {
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
   border-bottom: 1px solid #eef2f6;
 }
+.hero-intro h1{
+text-align: center;
+}
 
 .site-header .logo a {
   display: inline-flex;
