@@ -267,10 +267,20 @@ header h1 {
 }
 
 .speed {
-  background: linear-gradient(135deg, #0b5ed7, #1d4ed8);
+  background:whitesmoke;
   color: white;
   padding: 50px 20px;
   text-align: center;
+}
+.speed h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.speed p {
+  font-size: 22px;
+  color: black;
 }
 
 .info-strip {
@@ -385,12 +395,6 @@ header h1 {
   margin-top: 10px;
 }
 
-.speed {
-  background: linear-gradient(135deg, #0b5ed7, #1d4ed8);
-  color: white;
-  padding: 50px 20px;
-  text-align: center;
-}
 
 .info-strip {
   display: grid;
@@ -452,15 +456,6 @@ footer {
 
 .footer-links a {
   color: white;
-  font-size: 22px;
-}
-
-.speed h2 {
-  font-size: 35px;
-  margin-bottom: 20px;
-}
-
-.speed p {
   font-size: 22px;
 }
 .phot{
