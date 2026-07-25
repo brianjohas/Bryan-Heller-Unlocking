@@ -3,14 +3,10 @@ TOOLS PAGE
 ==========================*/
 
 .page-header{
-
 background: linear-gradient(135deg, #093b6b, #0b5ed7);
-
-padding:40px 20px;
+padding:5px 8px;
 
 text-align:center;
-
-color:white;
 
 }
 
@@ -19,7 +15,7 @@ color:white;
 font-size:45px;
 
 margin-bottom:15px;
-
+color:white;
 }
 
 .page-header p{
@@ -58,7 +54,7 @@ border:1px solid #ddd;
 
 }
 .pg{
-  background: linear-gradient(135deg, #0066cc, #00b3ff);
+  background: radial-gradient(circle at top left, #2faaff, #0b5ed7 70%);
   color: white;
   padding: 60px 20px;
   text-align: center;
@@ -67,11 +63,14 @@ border:1px solid #ddd;
 .pg h2 {
   font-size: 40px;
   margin-bottom: 15px;
+  text-align:center;
+  color: white;
 }
 
 .pg p {
   font-size: 20px;
   margin-bottom: 25px;
+  color:white;
 }
 
 /*nav*/

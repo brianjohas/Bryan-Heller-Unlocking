@@ -9,7 +9,9 @@
   font-weight: 700;
   letter-spacing: 0.5px;
 }
-
+.hero-intro h1,p{
+text-align: center;
+}
 .logo-s {
   background-color: #007bff;
   color: white;
@@ -21,7 +23,24 @@
 .logo-highlight {
   color: #007bff;
 }
+.ru{
+  background: radial-gradient(circle at top left, #2faaff, #0b5ed7 70%);
+  padding: 60px 20px;
+  text-align: center;
+}
 
+.ru h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-align:center;
+  color: white;
+}
+
+.ru p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color:white;
+}
 body {
   background: #ffffff;
   color: #1f2937;
@@ -72,6 +91,7 @@ text-align: center;
   padding: 8px 12px;
   border-radius: 999px;
   transition: .22s;
+  font-family: Arial;
 }
 
 .site-header nav a:hover {
@@ -146,11 +166,6 @@ header h1 {
   margin-bottom: 8px;
   color: #0b132b;
 }
-.hero-intro p {
-  max-width: 640px;
-  margin: 0 auto;
-}
-
 .hero {
   background: radial-gradient(circle at top left, #2faaff, #0b5ed7 70%);
   color: white;
@@ -161,6 +176,7 @@ header h1 {
 .hero h2 {
   font-size: 40px;
   margin-bottom: 15px;
+  color: black;
 }
 
 .hero p {
@@ -454,7 +470,7 @@ footer {
   margin-bottom: 8px;
 }
 footer {
-  background: #0a2f5f;
+  background: #0b5ed7;
   color: white;
   padding: 35px 20px;
   text-align: center;
@@ -582,8 +598,11 @@ button:hover {
   background: #eaf4ff;
   border-left: 5px solid #0077ff;
   border-radius: 8px;
-}
 
+}
+.note p{
+  text-align: left;
+}
 body.status-page {
   background: #f5f7fb;
 }
